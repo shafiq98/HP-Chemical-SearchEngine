@@ -34,8 +34,6 @@ const Results = (props) => {
                     <IndividualListing chemical = {element} key = {element.ID}></IndividualListing>
                 )
             })}
-
-            <p>This is from the Results Component</p>
         </div>
     )
 }

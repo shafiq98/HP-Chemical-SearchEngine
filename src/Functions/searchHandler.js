@@ -37,10 +37,12 @@ function breakUserInput(username){
     return username.split(",");
 }
 
-// async function ChemicalsPull(searchURL){
-//     const chemical_response = await fetch(searchURL);
-//     const chemical = await chemical_response.json();
-//     // console.log(chemical)
-//     return chemical;
+// async function TopResultsPull(){
+//     let searchURL = "http://127.0.0.1:25565/TopResults"
+//     let resultJson = await fetch(searchURL);
+//     const result = await resultJson.json()
+
+//     return result;
 // }
+
 export {searchHandler};
